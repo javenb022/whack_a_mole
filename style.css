@@ -1,0 +1,89 @@
+body {
+  background-image: url('Grass.jpeg');
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-bar {
+  background-image: url('wood.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  width: 600px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+  margin: auto;
+}
+
+.mole {
+  background-image: url('mole.jpeg');
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 25px, 0px, 0px, 0px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#title-welcome {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 100px;
+  /* outline-style: inset;
+  outline-width: 5px; */
+  background-image: url('dirt.png')
+}
